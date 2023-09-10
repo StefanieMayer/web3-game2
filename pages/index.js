@@ -23,7 +23,7 @@ export default function Home(props) {
       <SimpleGrid columns={1}>
       <main className={styles.main}>
         <h1 className={styles.title}>Introduction</h1> 
-        <div className={styles.description}>ESGardener <br/>
+        <div className={styles.description}>
           Support Meaningful Campaings to grow the inifinite gardens <br/>
  </div>
 

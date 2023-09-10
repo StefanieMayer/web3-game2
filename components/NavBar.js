@@ -74,11 +74,7 @@ const MenuLinks = ({ isOpen }) => {
                 direction={["column", "row", "row", "row"]}
                 pt={[4, 4, 0, 0]}
             >
-                <MenuItem to="/">Home</MenuItem>
-                <MenuItem to="/mintpage">Mint Words</MenuItem>
-                <MenuItem to="/oracle">Guess the password</MenuItem>
-                <MenuItem to="/displayNFT">Display NFT</MenuItem>
-                <MenuItem to="/leaderboard">Leaderboard</MenuItem>
+                 <MenuItem to="/OngoingCampaigns">Ongoing Campaigns</MenuItem>
                 <Main className={"relative top-0"}></Main>
             </Stack>
         </Box>
@@ -105,3 +101,12 @@ const NavBarContainer = ({ children, ...props }) => {
 };
 
 export default NavBar;
+
+/*
+                <MenuItem to="/">Home</MenuItem>
+
+                <MenuItem to="/leaderboard">Leaderboard</MenuItem>
+                <MenuItem to="/mintpage">Mint Words</MenuItem>
+
+
+*/
