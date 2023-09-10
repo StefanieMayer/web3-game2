@@ -4,7 +4,7 @@ const ImageGrid = () => {
   const images = [
     {
       id: 1,
-      base64SVG: '/landing.png',
+      base64SVG: '/campaignImg1.png',
       title: 'Name : Save the World',
       description: 'Description This is the description for image 1.',
       goal: 'Target : 10/20 (ETH)  ',
@@ -12,7 +12,7 @@ const ImageGrid = () => {
     },
     {
       id: 2,
-      base64SVG: '/landing.png',
+      base64SVG: '/campaignImg2.png',
       title: 'Name : Save the Farm',
       description: 'Description This is the description for image 1.',
       goal: 'Target : 10/20 (ETH)  ',
@@ -21,7 +21,7 @@ const ImageGrid = () => {
  
     {
       id: 3,
-      base64SVG: '/landing.png',
+      base64SVG: '/campaignImg3.png',
       title: 'Name : Save the Tree',
       description: 'Description This is the description for image 1.',
       goal: 'Target : 10/20 (ETH)  ',
@@ -30,7 +30,7 @@ const ImageGrid = () => {
  
     {
       id: 4,
-      base64SVG: '/landing.png',
+      base64SVG: '/campaignImg4.png',
       title: 'Name : Save the Man',
       description: 'Description This is the description for image 1.',
       goal: 'Target : 10/20 (ETH)  ',
@@ -38,7 +38,7 @@ const ImageGrid = () => {
     },
     {
       id: 5,
-      base64SVG: '/landing.png',
+      base64SVG: '/campaignImg5.png',
       title: 'Name : Save the Woman',
       description: 'Description This is the description for image 1.',
       goal: 'Target : 10/20 (ETH)  ',
@@ -47,7 +47,7 @@ const ImageGrid = () => {
  
     {
       id: 6,
-      base64SVG: '/landing.png',
+      base64SVG: '/campaignImg6.png',
       title: 'Name : Save the Kids',
       description: 'Description This is the description for image 1.',
       goal: 'Target : 10/20 (ETH)  ',

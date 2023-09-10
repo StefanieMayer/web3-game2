@@ -1,5 +1,4 @@
 import { useWeb3Auth } from "../context/web3auth";
-import styles from "../styles/Home.module.css";
 import { WALLET_ADAPTERS } from "@web3auth/base";       //  <span>{userAddress} </span>
 import React, { useState, useEffect } from 'react'
 import { useRouter } from "next/navigation";

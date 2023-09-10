@@ -16,7 +16,7 @@ export default function Home(props) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Crack the NFT Password, Win Prizes!</title>
+        <title>ES-Gardeners</title>
         <meta name="description" content="Crack the NFT Password" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
