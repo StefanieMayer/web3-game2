@@ -16,14 +16,14 @@ export default function Home(props) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Crack the NFT Password, Win Prizes!</title>
+        <title>ES-Gardeners</title>
         <meta name="description" content="Crack the NFT Password" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <SimpleGrid columns={1}>
       <main className={styles.main}>
         <h1 className={styles.title}>Introduction</h1> 
-        <div className={styles.description}>ESGardener <br/>
+        <div className={styles.description}>
           Support Meaningful Campaings to grow the inifinite gardens <br/>
  </div>
 
