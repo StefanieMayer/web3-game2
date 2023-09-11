@@ -16,23 +16,23 @@ export default function Home(props) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>ES-Gardeners</title>
+        <title>Home</title>
         <meta name="description" content="Crack the NFT Password" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <SimpleGrid columns={1}>
         <main className={styles.main}>
-          <h1 className={styles.title}>Introduction</h1>
+        <Image width={400} height={16} src={'/logo.png'} />
+
           <div className={styles.description}>
             Support Meaningful Campaings to grow the inifinite gardens <br />
           </div>
 
-          <Image width={400} height={16} src={'/landing.png'} />
 
-          <h1 className={styles.title}>title</h1>
+          <h1 className={styles.title}>The Gardening Macaques</h1>
           <div className={styles.description}>
-            descriptions.</div>
-          <Image width={400} height={16} src={'/mainpage2.jpg'} />
+          Gamifying donations through NFTs</div>
+          <Image width={400} height={16} src={'/bookLogoII.png'} />
           <br></br>
           <br></br>
 
@@ -41,13 +41,9 @@ export default function Home(props) {
           <br></br>
 
             <div className={'max-w-4xl'}>
-              NFT Ownership: Own a valuable digital asset with your NFT creation.
-              Engaging and Thrilling: Enjoy the excitement of cracking codes and NFTs.
-              Great Prizes: Win diverse rewards, from digital items to real-world experiences.
-              Fair and Transparent: Every player gets a fair shot with their unique NFT clues.
-              Conclusion: Join the NFT Password Challenge, crack the code, and win amazing prizes.
+            
             </div>
-            Get ready for an adventure of mystery and rewards!</div>
+            For each donation drive each donor receives a random NFT specific to that drive.</div>
             <br></br>
             <br></br>
         </main>
@@ -67,3 +63,10 @@ export default function Home(props) {
     </div>
   )
 }
+
+
+
+/*
+          <h1 className={styles.title}>The Gardens Macaquesx</h1>
+
+*/

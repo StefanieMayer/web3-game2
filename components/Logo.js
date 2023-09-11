@@ -5,11 +5,11 @@ export default function Logo(props) {
     return (
         <Box {...props}>
             <SimpleGrid columns={2}>
-                <Image src={'icon.png'} boxSize={"50px"}/>
+                <Image src={'logo.png'} boxSize={"50px"}/>
  
             <Link href="/">
-            <Text fontSize='17' fontWeight="bold" >
-            ESGardener
+            <Text fontSize='20' fontWeight="bold" >
+            Home
             </Text>
         </Link>
 
