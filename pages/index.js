@@ -25,13 +25,14 @@ export default function Home(props) {
         <Image width={400} height={16} src={'/logo.png'} />
 
           <div className={styles.description}>
-            Support Meaningful Campaings to grow the inifinite gardens <br />
+             <br />
           </div>
 
 
           <h1 className={styles.title}>The Gardening Macaques</h1>
           <div className={styles.description}>
-          Gamifying donations through NFTs</div>
+          Support Meaningful Campaings to grow the inifinite gardens.
+          </div>
           <Image width={400} height={16} src={'/bookLogoII.png'} />
           <br></br>
           <br></br>
@@ -43,8 +44,8 @@ export default function Home(props) {
             <div className={'max-w-4xl'}>
             
             </div>
-            For each donation drive each donor receives a random NFT specific to that drive.</div>
-            <br></br>
+            Gamifying donations through NFTs.<br></br><br></br>For each donation drive each donor receives a random NFT specific to that drive.<br></br><br></br>Collecting more NFTs enable donors to access more private and real-time information<br></br>to an organisation of ther choice that they have donated to.</div>
+
             <br></br>
         </main>
       </SimpleGrid>
