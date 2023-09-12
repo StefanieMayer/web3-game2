@@ -1,4 +1,4 @@
-import { Box, SimpleGrid, Card, CardHeader, Heading, CardBody, Text,     Table,
+import { Box, SimpleGrid, Card, CardHeader, Heading, Input , Text,     Table,
     Tbody,
     Td,
     Th,
@@ -129,7 +129,11 @@ export default function Mintpage(props) {
                             <Text as='b' fontSize='lg' >VAKA Health Foundation</Text> <br></br> <br></br>
                             <Text fontSize='lg' >The VAKA Foundation builds a social enterprise for Healthcare workers.</Text> <br></br>
                             <Text fontSize='lg' >They provide a medical professional education to ensure universal accessibility and effective communication on trending healthcare matters. </Text>
+                            <br />
+                            <br />
+                            <br />
 
+                            <Input placeholder='Enter Donor`s name ' />
                             <Button disabled={loadingTX} onClick={() => mintNFT(localProvider)}
 
                                 style={{ marginTop: '140px' }} className={"max-w-4xl my-10"}> {!loadingTX && <div className="loader"> Support Campaign with (0.01 ETH)</div>}
